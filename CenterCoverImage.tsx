@@ -1,5 +1,4 @@
 import React from "react";
-import "./styles.css";
 import { css } from "emotion";
 import cn from "classnames";
 
