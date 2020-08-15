@@ -5,6 +5,10 @@ import cn from "classnames";
 
 const Image = css`
   position: absolute;
+  /*
+    This works because top and left percentages are in relation to parent size, 
+    but transform percentages are in relation to the element's own size.
+  */
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
