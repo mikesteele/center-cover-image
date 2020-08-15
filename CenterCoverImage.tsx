@@ -31,6 +31,10 @@ interface Props {
   alt: string;
   className: string;
   src: string;
+  /*
+    Is the source image portrait-sized, having more height than width?
+    Note that this refers to the source image itself, not the size you want it to be.
+  */
   srcIsPortrait: boolean;
 }
 
