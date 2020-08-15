@@ -12,7 +12,6 @@ const Image = css`
 
 const Wrapper = css`
   overflow: hidden;
-  background: red;
   position: relative;
 `;
 
